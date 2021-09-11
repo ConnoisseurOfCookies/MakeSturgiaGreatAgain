@@ -51,6 +51,15 @@
 				<GameType value = "CustomGame"/>
 				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
-		</XmlNode>                 
+		</XmlNode>      
+        <XmlNode>
+            <XmlName id="NPCCharacters" path="SeaRaiders" />
+            <IncludeGameTypes>
+                <GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+            </IncludeGameTypes>
+        </XmlNode>           
     </Xmls>
 </Module>
